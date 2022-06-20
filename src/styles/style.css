@@ -1,4 +1,68 @@
 /** CSS STYLE **/
+:root {
+  --white-color: #fff;
+  --translucent-color: #d7ccc0;
+  --light-color: #f5f4f0;
+  --main-color: #fe8a02;
+  --main-dark-color: #42413c;
+  --dark-color: #2a2626;
+  --translucent-dark-color: #908d8b;
+  --brown-color: #b09a81;
+  --blue-color: #1085c5;
+}
+
+@font-face {
+  font-weight: 400; /* Соответствует значению normal */
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: "OpenSans";
+  src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Light.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Neucha;
+  src: url("../fonts/Neucha/Neucha-Regular.ttf");
+}
+
+* {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2A2626;
+  font-family: Neucha sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: OpenSans sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 34px;
+}
+
+section {
+  max-width: 1110px;
+  text-align: center;
+  margin: 0 100px;
+}
+
 
 .hello {
   display: block;
